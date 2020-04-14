@@ -9,10 +9,12 @@
 import Foundation
 
 public class Service {
+    
     private init(){
-        Custom Cocoapods: Sharing A Framework | Swift 4, Xcode 9
     }
-    public static func doSomething() -> String {
-        return "Did some Stuff, here you go homeboi!"
+    
+    public static func doSomething(apiKey: String, secretKey : String) -> String
+    {
+        return "Seu apiKey: \(apiKey) e sua secretKey: \(secretKey) "
     }
 }
